@@ -10,7 +10,7 @@ Este es un programa o mejor dicho una app que permite visualizar los log de apac
 
 ## Deployment
 
-- Tener Python instalado en su maquina, descargar el lenguaje desde [aca](https://www.python.org/downloads/).
+- Tener Python instalado en su maquina, descargar el lenguaje desde [aqui](https://www.python.org/downloads/).
 
 ## Crear un ejecutable
 
@@ -26,4 +26,4 @@ pyinstaller logerVisor.py --onefile --noconsole --icon=icono_loger.ico
 
 # Instalador
 
-si se quisiera crear un instalador para la app puede seguir el sigiente [tutorial](https://www.youtube.com/watch?v=W4QQ-ua9Ips)
+si se quisiera crear un instalador para la app puede seguir el sigiente [tutorial](https://www.youtube.com/watch?v=W4QQ-ua9Ips).
