@@ -2,7 +2,7 @@
  <img width=20% height=20% src="https://i.imgur.com/bGizZPd.png" alt="Proyecto logo">
 </p>
 
-<h1 align="center"> Visor de log de apache PYTHON TKINTER</h1>
+<h1 align="center"> Visor/Buscador en los registros|log de Apache PYTHON TKINTER</h1>
 
 
 <p>Este es un programa o mejor dicho una app que permite visualizar los log de apache, asi como incluir un pequeño buscador para resaltar las palabras que estamos buscando como fechas o directorios.</p>
