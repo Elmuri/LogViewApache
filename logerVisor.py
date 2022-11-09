@@ -53,8 +53,8 @@ def find():
             lastidx = '%s+%dc' % (idx, len(s))
             text.tag_add('found', idx, lastidx)
             idx = lastidx
-        for conf in configuracion["Color_Busqueda"]:
-            text.tag_config('found', foreground=conf['color'])
+        for conf in configuracion["custom"]:
+            text.tag_config('found', foreground=conf['find'])
     edit.focus_set()
 
 
