@@ -39,5 +39,5 @@ si se quisiera crear un instalador para la app puede seguir el sigiente [tutoria
  <p>En en apartado de <strong>Ventana</strong> podemos encontrar el <strong>whidth</strong> que representa al ancho de la ventana y el <strong>height</strong> que representa el alto de la ventana.</p>
  <p>En el apartado de <strong>Directorios</strong> podemos encontrar <strong>acces</strong> y <strong>error</strong> que son los que definen que archivos abrir para las funciones de del menu de abrir acces o abrir error, por defecto esta seleccionado los resgistros de apache.</p>
  <p>En el apartado de custom podemos encontrar los cambios de colores tanto del resaltado del texto al buscarlo (<strong>find</strong>), el color del contenedor del texto (<strong>contenedorDeTexto_color</strong>), el color del texto (<strong>Texto_color</strong>) y el tamaño del texto (<strong>size</strong>).</p>
- <img width=100% height=100% src="https://i.imgur.com/Rc1L0Dz.png" alt="Proyecto logo">
+ <img width=40% height=40% src="https://i.imgur.com/Rc1L0Dz.png" alt="Proyecto logo">
 </p>
