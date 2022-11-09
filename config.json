@@ -1,0 +1,29 @@
+{
+    "Ventana":[
+        {
+            "whidth" : "1000",
+            "height" : "700"
+        }
+    ],
+    "Directorios":[
+
+        {
+            "acces" : "C:/xampp/apache/logs/access.log",
+            "error" : "C:/xampp/apache/logs/error.log"
+        }
+    ],
+    "Color_Busqueda":[
+
+        {
+            "color" : "orange"
+        }
+    ],
+    "custom":[
+
+        {
+            "size" : "10",
+            "Texto_color" : "white",
+            "contenedorDeTexto_color" : "black"
+        }
+    ]
+}
