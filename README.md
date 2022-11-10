@@ -6,7 +6,7 @@
 <p>Este es un programa o mejor dicho una app que permite visualizar los log de apache /u otros log que queramos visualizar, asi como incluir un pequeño buscador para resaltar las palabras que estamos buscando como fechas o directorios.</p>
 
 <h2>A tener en cuenta</h2>
-<p>Puede descargar el repositorio pero el .exe tiene que estar en la misma carpeta que config.json, luego puede crear un acceso directo e abrirlo desde donde quiera.</p>
+<p>Puede descargar el repositorio pero el .exe tiene que estar en la misma carpeta que config.json, luego puede crear un acceso directo e abrirlo desde donde quiera, asu ves si cambia los valores del config.json para efectar los cambios en la app tiene que reiniciarla.</p>
 
 ## Deployment
 
