@@ -1,0 +1,22 @@
+{
+    "Ventana":[
+        {
+            "whidth" : "1200",
+            "height" : "520"
+        }
+    ],
+    "Directorios":[
+        {
+            "acces" : "C:/xampp/xampp-control.log",
+            "error" : "C:/xampp/apache/logs/error.log"
+        }
+    ],   
+    "custom":[
+        {
+            "find" : "orange",
+            "size" : "12",
+            "Texto_color" : "white",
+            "contenedorDeTexto_color" : "black"
+        }
+    ]
+}
