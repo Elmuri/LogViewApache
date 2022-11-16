@@ -10,7 +10,7 @@
 
 <h2>Instalación</h2>
 
-<p>Para intalar la app solamente tiene que descargar Long view setup.exe del repositorio y istalarlo.</p>
+<p>Para intalar la app solamente tiene que descargar LogViewSetup.exe del repositorio y istalarlo.</p>
 
 <h2>Configuración de la app</h2>
 <p align="center">
