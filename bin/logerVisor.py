@@ -78,24 +78,23 @@ def guardar():
         archi1.close()
         mb.showinfo("Información", "Los datos fueron guardados en el archivo.")
 
+# NOTE - funcion de abrir el log de access de apache
+def abrir_access():
+    for conf in configuracion["Directorios"]:
+        with open(conf["directorio1"], mode="r", encoding="utf-8") as file_objet:
+            leer = file_objet.readlines()
+            text.delete("1.0", END)
+            text.insert("1.0", leer)
 
 # NOTE - funcion de abrir el log de error de apache
 def abrir_error():
     for conf in configuracion["Directorios"]:
         # NOTE - Definiendo el tamaño de la ventana
-        with open(conf["error"], mode="r", encoding="utf-8") as file_objet:
+        with open(conf["directorio2"], mode="r", encoding="utf-8") as file_objet:
             contenido = file_objet.readlines()
             text.delete("1.0", END)
             text.insert("1.0", contenido)
 
-
-# NOTE - funcion de abrir el log de access de apache
-def abrir_access():
-    for conf in configuracion["Directorios"]:
-        with open(conf["acces"], mode="r", encoding="utf-8") as file_objet:
-            leer = file_objet.readlines()
-            text.delete("1.0", END)
-            text.insert("1.0", leer)
 
 # NOTE - funcion para ver abrir un log externo
 
@@ -112,10 +111,11 @@ def abrir():
 
 
 # NOTE - añadiendo los comandos del menu
-opciones1.add_command(label="Abrir log de access", command=abrir_access)
-opciones1.add_separator()
-opciones1.add_command(label="Abrir log de error", command=abrir_error)
-opciones1.add_separator()
+for conf in configuracion["Directorios"]:
+    opciones1.add_command(label="Abrir log de "+conf['nombre1'], command=abrir_access)
+    opciones1.add_separator()
+    opciones1.add_command(label="Abrir log de "+conf['nombre2'], command=abrir_error)
+    opciones1.add_separator()
 opciones1.add_command(label="Guardar Copia de seguridad", command=guardar)
 opciones1.add_separator()
 opciones1.add_command(label="Abrir log", command=abrir)

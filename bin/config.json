@@ -7,8 +7,10 @@
     ],
     "Directorios":[
         {
-            "acces" : "C:/xampp/xampp-control.log",
-            "error" : "C:/xampp/apache/logs/error.log"
+            "nombre1":"acces",
+            "directorio1" : "C:/xampp/apache/logs/access.log",
+            "nombre2":"error",
+            "directorio2" : "C:/xampp/apache/logs/error.log"
         }
     ],   
     "custom":[
