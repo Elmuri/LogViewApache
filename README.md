@@ -16,7 +16,7 @@
 <p align="center">
  <p>En el <strong>config.json</strong> Puede encontrar los parametros a poder cambiarse a gustos del usuariom,<strong>este se encuentra en la ubicación de instalación elegida por el ususario</strong>.</p>
  <p>En en apartado de <strong>Ventana</strong> podemos encontrar el <strong>whidth</strong> que representa al ancho de la ventana y el <strong>height</strong> que representa el alto de la ventana.</p>
- <p>En el apartado de <strong>Directorios</strong> podemos encontrar <strong>nombre1</strong> que pertenece al nombre del primer directorio y como <strong>nombre2</strong> que pertenece al nombre del segundo directorio,asu ves estan <strong>directorio1</strong> y <strong>directorio2</strong> que son los que definen que archivos abrir para las funciones de del menu, por defecto esta seleccionado los resgistros de apache.</p>
+ <p>En el apartado de <strong>Directorios</strong> podemos encontrar <strong>nombre1</strong> que pertenece al nombre del primer directorio y como <strong>nombre2</strong> que pertenece al nombre del segundo directorio, tambien podemos encontrar <strong>directorio1</strong> y <strong>directorio2</strong> que son los que definen que archivos abrir para las funciones de del menu, por defecto esta seleccionado los resgistros de apache.</p>
  <p>En el apartado de custom podemos encontrar los cambios de colores tanto del resaltado del texto al buscarlo (<strong>find</strong>), el color del contenedor del texto (<strong>contenedorDeTexto_color</strong>), el color del texto (<strong>Texto_color</strong>) y el tamaño del texto (<strong>size</strong>).</p>
  <img width=50% height=50% src="https://i.imgur.com/Net7sIi.png" alt="Proyecto logo">
 </p>
